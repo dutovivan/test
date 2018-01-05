@@ -1,0 +1,27 @@
+name: "IceDan"
+navbar:
+  title: "IceDan"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "первый"
+      href:  site1.html
+    - text: "второй"
+      href: site2.html
+      icon: fa-gear
+      menu:
+        - text: "Еще что-то"
+          href: site1.html
+        - text: "И это не забудьте"
+          href: site2.html
+output_dir: docs
+output:
+  html_document:
+    theme: spacelab
+    highlight: pygments
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+    smooth_scroll: false
+    df_print: paged
+    
